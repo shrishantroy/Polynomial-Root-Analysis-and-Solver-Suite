@@ -1,5 +1,7 @@
 # Higher Order Polynomial Equation Solver
-The <b>Abel-Ruffini Theorem</b> proves that polynomial equations with degrees higher than 5 cannot be solved analytically. The necessity of using numerical techniques instead arises here. This web application solves polynomial equations of any degree. The user can input the coefficients and the degree of equation and solve it numerically using this application. 4 numerical methods are available here:<br>
+The <b>Abel-Ruffini Theorem</b> proves that polynomial equations with degrees higher than 5 cannot be solved analytically. The necessity of using numerical techniques instead arises here. This web application solves polynomial equations of any degree of the form:<br>
+a<sub>0</sub>+a<sub>1</sub>x+a<sub>2</sub>x<sup>2</sup>+a<sub>3</sub>x<sup>3</sup>+..........+a<sub>n-1</sub>x<sup>n-1</sup>+a<sub>n</sub>x<sup>n</sup>
+The user can input the coefficients and the degree of equation and solve it numerically using this application. 4 numerical methods are available here:<br>
 1) Newton Raphson Method
 2) Secant Method
 3) Bisection Method
