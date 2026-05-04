@@ -5,4 +5,8 @@ The <b>Abel-Ruffini Theorem</b> proves that polynomial equations with degrees hi
 3) Bisection Method
 4) False Position Method(Regula Falsi)
 
-The user can choose any of these methods to solve his equation. The algorithm parameters like tolerance, step size, maximum iterations,initial guess etc. are given by the user as well, allowing him to simulate and analyze the internal working of each numerical method by approaching the solution in various ways through varying these parameters. An interactive plot of the solution is also available, which can be used to view the behaviour of the equation as well as visualize the its solutions. 
+The user can choose any of these methods to solve his equation. The algorithm parameters like tolerance, step size, maximum iterations,initial guess etc. are given by the user as well, allowing him to simulate and analyze the internal working of each numerical method by approaching the solution in various ways through varying these parameters. An interactive plot of the equation is also available, which can be used to view the behaviour of the equation as well as visualize the its solutions.The plot can be zoomed in and out and the x axis limits are defined by the user.<br>
+
+## Outputs
+Once all the parameters are defined by the user, running the solver will give one of the solutions and the number iterations required for convergence. In case the system diverges(crosses maximum iteration limits), the application will return a message informing about the convergence failure. The user might try to increase the number of iterations or change the intial guesses/values and try to approach the solution again. 
+For methods like bisection or regula falsi, the initial values x = (a,b) must be chosen such that f(a)*f(b)<0. The program will return a message telling the user about invalid initial values if this condition is not satisfied.
