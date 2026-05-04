@@ -3,5 +3,4 @@ The <b>Abel-Ruffini Theorem</b> proves that polynomial equations with degrees hi
 1) Newton Raphson Method
 2) Secant Method
 3) Bisection Method
-4) False Position Method(Regula Falsi)<br>
-<br>The user can choose any of these methods to solve his equation. The algorithm parameters like tolerance, step size, maximum iterations,initial guess etc. are given by the user as well, allowing him to simulate and analyze the internal working of each numerical method by approaching the solution in various ways through varying these parameters. An interactive plot of the solution is also available, which can be used to view the behaviour of the equation as well as visualize the its solutions. 
+4) False Position Method(Regula Falsi)<br>The user can choose any of these methods to solve his equation. The algorithm parameters like tolerance, step size, maximum iterations,initial guess etc. are given by the user as well, allowing him to simulate and analyze the internal working of each numerical method by approaching the solution in various ways through varying these parameters. An interactive plot of the solution is also available, which can be used to view the behaviour of the equation as well as visualize the its solutions. 
