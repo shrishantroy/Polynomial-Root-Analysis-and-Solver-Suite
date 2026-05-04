@@ -12,3 +12,6 @@ The user can choose any of these methods to solve his equation. The algorithm pa
 ### Outputs
 Once all the parameters are defined by the user, running the solver will give one of the solutions and the number iterations required for convergence. In case the system diverges(crosses maximum iteration limits), the application will return a message informing about the convergence failure. The user might try to increase the number of iterations or change the intial guesses/values and try to approach the solution again.<br><br> 
 For methods like bisection or regula falsi, the initial values x = (a,b) must be chosen such that f(a)*f(b)<0. The program will return a message telling the user about invalid initial values if this condition is not satisfied.
+
+You can use the app here:<br>
+https://higher-order-polynomial-equation-solver-ky5augvdon8rfzrjajiovi.streamlit.app/
